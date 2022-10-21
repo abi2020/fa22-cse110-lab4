@@ -1,0 +1,6 @@
+## Part 2
+1. The number '3' will be printed. This is because the variable *i* is of the type var, which means its scope is within the entire function discountPrices. Additionally, the variable *i* is incremented until its value is greater than or equal to the length of the array prices. Since the length of prices is 3, the for loop will finish once the value of *i* is 3.
+2. The number '150' will be printed.  This is because the variable *discountedPrice* is of the type var, which means its scope is within the entire function discountPrices. Additionally, the variable *discountedPrice* is currently set to the discounted price of the last element in the *prices* array; that price is 300, and with a discount of 50%, the value will be 150.
+3. The number '150' will be printed.  This is because the variable *finalPrice* is of the type var, which means its scope is within the entire function discountPrices. Its value will be the same as *discountedPrice* since we are multiplying and dividing by 100; the rounding function will not have an effect since we are dealing with whole numbers.
+4. This function will return an array with the values of [50, 100, 150]. There are no logic errors in the function, so the *discounted* array will contain the correct discounted prices. 
+5. Error - 
